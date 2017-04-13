@@ -7,10 +7,7 @@ import (
 )
 
 func main() {
-
-
 	name, _ := os.Hostname()
-	fmt.Println("Hostname : %s\n", name)
 
 	r := gin.Default()
 	r.GET("/ping", func(c *gin.Context) {
