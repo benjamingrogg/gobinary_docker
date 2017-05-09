@@ -7,7 +7,7 @@ Use FROM scratch to provide a small footprint
 Compile
 -------
 
-`CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o pong.go`
+`CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o pong`
 
 
 Build
